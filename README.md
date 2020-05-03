@@ -1,2 +1,2 @@
-# Module 8 - Finishing w/ Web Frameworks
+# Finishing w/ Web Frameworks
 
