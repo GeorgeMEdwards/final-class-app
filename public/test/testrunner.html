@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Mocha Tests</title>
+    <link rel="stylesheet" href="node_modules/mocha/mocha.css">
+  </head>
+  <body>
+    <div id="mocha"></div>
+    <script src="node_modules/mocha/mocha.js"></script>
+    <script src="node_modules/chai/chai.js"></script>
+    <script>mocha.setup('bdd')</script>
+
+    <!-- The code we want to test -->
+    <script src="../lib/className.js"></script>
+
+    <!-- loading test files -->
+    <script src="test/arrayTest.js"></script>
+    <script src="test/classNameTest.js"></script>
+    <script src="../lib/api.config.js"></script>
+    <script src="../lib/simple-storage.js"></script>
+    <script src="../lib/service-helpers.js"></script>
+    <script src="../todo/employees-api.service.js"></script>
+    <script src="../todo/todo.service.js"></script>
+    <script src="./todo.spec.js"></script><script>
+     <script>
+      mocha.run();
+    </script>
+  </head>
+  <body></body>
+</html>
